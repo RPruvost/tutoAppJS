@@ -8,10 +8,10 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Coucou les gens</h1>
-        <Counter contenu="Mangé 0 pomme(s)"/>
-        <Counter contenu = "Courru 0 Km(s)"/>
-        <Counter contenu = "Acheté 0 produits" />
-        <Counter contenu = "Recommencé 0 fois"/>
+        <Counter verb="Mangé" rest="pomme(s)"/>
+        <Counter verb = "Courru"  rest="Km(s)"/>
+        <Counter verb = "Acheté" rest="produits" />
+        <Counter verb = "Recommencé" rest="fois"/>
       </div>
     );
   }
